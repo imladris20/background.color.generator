@@ -1,3 +1,5 @@
+/* Background Generator: https://imladris20.github.io/background.color.generator/   */
+
 var bodyBackground = document.getElementById("background");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
