@@ -14,6 +14,7 @@ function changeBackGround(){
     + ")";
 
     //  更改h3元素的內容
+    //  .textContext 的功能跟createTextNode()、innerHTML很像
     description.textContent = bodyBackground.style.background + ";";
 }
 
