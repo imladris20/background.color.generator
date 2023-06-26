@@ -1,0 +1,11 @@
+{
+  "name": "backgroundgenerator_practice",
+  "version": "1.0.0",
+  "description": "User can use this website to get the setting of the linear gradient color settings of their own.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
