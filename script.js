@@ -11,20 +11,20 @@ var color2 = document.querySelector(".color2");
 var description = document.getElementById("colorDescription");
 
 function changeBackGround(){
-    //  ¥Î.style¨Ó¥h§ó§ïcss
+    //  ç”¨.styleä¾†å»æ›´æ”¹css
     bodyBackground.style.background = "linear-gradient(to right,"
     + color1.value
     + ","
     + color2.value
     + ")";
 
-    //  §ó§ïh3¤¸¯Àªº¤º®e
-    //  .textContext ªº¥\¯à¸òcreateTextNode()¡BinnerHTML«Ü¹³
+    //  æ›´æ”¹h3å…ƒç´ çš„å…§å®¹
+    //  .textContext çš„åŠŸèƒ½è·ŸcreateTextNode()ã€innerHTMLå¾ˆåƒ
     description.textContent = bodyBackground.style.background + ";";
 }
 
 
-// ³]©winputªºevent¨ä¹ê´N¥s°µinput
+// è¨­å®šinputçš„eventå…¶å¯¦å°±å«åšinput
 
 color1.addEventListener("input", changeBackGround);
 
